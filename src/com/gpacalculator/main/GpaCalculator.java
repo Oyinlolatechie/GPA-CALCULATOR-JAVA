@@ -28,7 +28,8 @@ public class GpaCalculator {
     private static Course getCourseDetails(int index) {
 
         // int count = index + 1;
-        System.out.println("Enter course details for coourser " + (index + 1) + ":");
+        System.out.println("Enter course details for course " + (index + 1) + ":");
+        System.out.println("e.g : Math 101");
 
         String courseNameAndCode = GetInput.getCourseNameAndCode("Course Name And Code: ");
         double courseScore = GetInput.getCourseScore("Score: ");
